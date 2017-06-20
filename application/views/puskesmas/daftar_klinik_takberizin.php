@@ -5,8 +5,8 @@
   <div class="title">
     <span><?php echo $title; ?></span>
       <div class="col s12 bred">
-        <a href="#!" class="breadcrumb">Admin</a>
-        <a href="#!" class="breadcrumb">Data Klinik</a>
+        <a href="#!" class="breadcrumb">Hepatitis</a>
+        <a href="#!" class="breadcrumb">Data Hepatitis</a>
       </div>
   </div>
   <nav class="teal">
@@ -31,12 +31,15 @@
             <thead>
               <tr>
                 <th>No</th>
-                <th>No Surat Izin</th>
-                <th>Tanggal Mulai Izin</th>
-                <th>Nama Klinik</th>
-                <th>Alamat</th>
+                <th>Nama Pasien</th>
+                <th>Tanngal Sakit</th>
+                <th>Umur</th>
+                <th>Jenis Kelamin</th>
+                <th>Kelurahan</th>
                 <th>Kecamatan</th>
-                <th>Control</th>
+                <th>Kab/Kota</th>
+                <th>Hasil Pemeriksaan</th>
+                <th>Status</th>
               </tr>
             </thead>
             <tbody>

@@ -24,9 +24,9 @@
         </a>
         <div class="collapsible-body">
           <ul>
-            <li><a href="<?php echo site_url('puskesmas/puskesmas_daftar_klinik'); ?>">Hepatitis</a></li>
-            <li><a href="<?php echo site_url('puskesmas/puskesmas_input'); ?>">DBD</a></li>
-            <li><a href="<?php echo site_url('puskesmas/puskesmas_daftar_klinik_takberizin'); ?>">Diare</a></li>
+            <li><a href="<?php echo site_url('puskesmas/puskesmas_daftar_klinik_takberizin'); ?>">Hepatitis</a></li>
+            <li><a href="#">DBD</a></li>
+            <li><a href="#">Diare</a></li>
           </ul>
         </div>
       </li>

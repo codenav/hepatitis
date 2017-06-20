@@ -9,23 +9,23 @@ echo form_open('puskesmas/tambah_takberizin',$attributes);
   <div class="title">
     <span><?php echo $title; ?></span>
       <div class="col s12 bred">
-        <a href="#!" class="breadcrumb">Perizinan</a>
-        <a href="#!" class="breadcrumb">Isi Data Dasar Klinik</a>
+        <a href="#!" class="breadcrumb">Isi Data Dasar Pasien</a>
+        <a href="#!" class="breadcrumb"></a>
       </div>
   </div>
   <div class="content">
     <div class="row form">
       <div class="col s12">
         <div class="card-panel cus-tambah white lighten-2">
-          <p class="sub-tit teal lighten-2">Isi Data Dasar Klinik </p>
+          <p class="sub-tit teal lighten-2">Isi Data Dasar Pasien</p>
           <div class="content">
             <div class="row">
               <div class="input-field col s6">
-                <label>No Surat Izin :</label>
+                <label>No</label>
                 <input id="val1" type="text" name="no_surat_izin" value="<?php echo set_value('no_surat_izin'); ?>">
               </div>
               <div class="input-field col s6">
-                <label>Nama Klinik :</label>
+                <label>Nama Pasien</label>
                 <input id="val1" type="text" name="nama" value="<?php echo set_value('nama'); ?>">
               </div>
               <!-- <div class="input-field col s6">
@@ -53,15 +53,15 @@ echo form_open('puskesmas/tambah_takberizin',$attributes);
                 <label for="val3">Alamat :</label>
               </div>
               <div class="input-field col s6">
-                <label>RT :</label>
+                <label>Jenis Kelamin</label>
                 <input id="val4" type="text" name="rt" value="<?php echo set_value('rt'); ?>">
               </div>
               <div class="input-field col s6">
-                <label>RW :</label>
+                <label>Hasil Pemeriksaan</label>
                 <input id="val5" type="text" name="rw" value="<?php echo set_value('rw'); ?>">
               </div>
               <div class="input-field col s12">
-                <label>No Telp :</label>
+                <label>Status</label>
                 <input id="val5" type="text" name="telp" value="<?php echo set_value('telp'); ?>">
               </div>
               <div class="input-field col s6">
@@ -85,10 +85,7 @@ echo form_open('puskesmas/tambah_takberizin',$attributes);
                 <option disabled>Pilih Puskesmas</option>
               </select>
             </div>
-
-
-
-              <div class="input-field col s6">
+              <!--<div class="input-field col s6">
                 <label>Penanggung Jawab :</label>
                 <input id="val5" type="text" name="penanggun_jawab" value="<?php echo set_value('penanggun_jawab'); ?>">
               </div>
@@ -100,7 +97,7 @@ echo form_open('puskesmas/tambah_takberizin',$attributes);
                 </select>
                 <label>Jenis Klinik :</label>
               </div> -->
-              <div class="input-field col s6">
+              <!--<div class="input-field col s6">
                 <select name="milik">
                   <option selected disabled>Pilih Kepemilikan</option>
                   <option value="pemda">PEMDA</option>
@@ -109,9 +106,9 @@ echo form_open('puskesmas/tambah_takberizin',$attributes);
                   <option value="swasta">SWASTA</option>
                 </select>
                 <label>Kepemilikan :</label>
-              </div>
+              </div>-->
 
-              <div class="col s12">
+              <!--<div class="col s12">
 
                   <p class="sub-tit teal lighten-2">Jenis Layanan :</p>
                   <div class="content">
@@ -149,7 +146,7 @@ echo form_open('puskesmas/tambah_takberizin',$attributes);
                     </div>
 
                 </div>
-              </div>
+              </div>-->
 
             </div>
           </div>
