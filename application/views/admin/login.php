@@ -5,7 +5,7 @@
 $attributes = array('onsubmit' => "return validate();");
 echo form_open('login/validasi',$attributes);
 ?>
-<div class="title-login teal lighten-1 z-depth-1">
+<div class="title-login blue lighten-1 z-depth-1">
   <?php echo $title; ?>
   <span>Dinas Kesehatan Kota Bandung</span>
 </div>
@@ -27,7 +27,7 @@ echo form_open('login/validasi',$attributes);
                 <label>Password</label>
               </div>
               <div class="col s12 but-login">
-                <button class=" col s12 btn waves-effect waves-light" type="submit" name="action">Login
+                <button class=" col s12 btn waves-effect waves-light blue" type="submit" name="action">Login
 
                 </button>
               </div>
