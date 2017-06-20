@@ -19,19 +19,35 @@
         <a href="<?php echo site_url('kadinkes/beranda'); ?>" class="icon-menu"><i class="material-icons">assignment</i>Beranda</a>
       </li>
       <li>
-        <a href="<?php echo site_url('kadinkes/lihat_klinik'); ?>" class="icon-menu"><i class="material-icons">assignment</i>Lihat Klinik</a>
-      </li>
-      <li>
-        <a href="<?php echo site_url('kadinkes/lihat_klinik_takberizin'); ?>" class="icon-menu"><i class="material-icons">assignment</i>Klinik tak Berizin</a>
-      </li>
-      <li>
         <a class="collapsible-header waves-effect waves-teal icon-menu">
-          <i class="material-icons">assignment</i>Download
+          <i class="material-icons">assignment</i>Data Hepatitis
         </a>
         <div class="collapsible-body">
           <ul>
-            <li><a href="<?php echo site_url('kadinkes/klinik_sesuai_standart'); ?>">Klinik Sesuai Standart</a></li>
-            <li><a href="<?php echo site_url('kadinkes/lihat_klinik_tervalidasi'); ?>">Jumlah Klinik Tervalidasi</a></li>
+            <li><a href="#">Jumlah Data Per Kecamatan</a></li>
+            <li><a href="#">Jumlah Data Kategori</a></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <a class="collapsible-header waves-effect waves-teal icon-menu">
+          <i class="material-icons">assignment</i>Data DBD
+        </a>
+        <div class="collapsible-body">
+          <ul>
+            <li><a href="#">Jumlah Data Per Kecamatan</a></li>
+            <li><a href="#">Jumlah Data Kategori</a></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <a class="collapsible-header waves-effect waves-teal icon-menu">
+          <i class="material-icons">assignment</i>Data Diare
+        </a>
+        <div class="collapsible-body">
+          <ul>
+            <li><a href="#">Jumlah Data Per Kecamatan</a></li>
+            <li><a href="#">Jumlah Data Kategori</a></li>
           </ul>
         </div>
       </li>

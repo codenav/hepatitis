@@ -22,15 +22,6 @@
         <a href="<?php echo site_url('admin/user_puskesmas'); ?>" class="icon-menu"><i class="material-icons">assignment</i>Tambah User Puskesmas</a>
       </li>
       <li>
-        <a href="<?php echo site_url('admin/user_yankes'); ?>" class="icon-menu"><i class="material-icons">assignment</i>Tambah User Yankes</a>
-      </li>
-      <li>
-        <a href="<?php echo site_url('admin/user_kadinkes'); ?>" class="icon-menu"><i class="material-icons">assignment</i>Tambah User Kadinkes</a>
-      </li>
-      <li>
-        <a href="<?php echo site_url('admin/user_perizinan'); ?>" class="icon-menu"><i class="material-icons">assignment</i>Tambah User Perizinan</a>
-      </li>
-      <li>
         <a href="<?php echo site_url('login/logout'); ?>" class="icon-menu"><i class="material-icons">power_settings_new</i>Logout</a>
       </li>
     </ul>

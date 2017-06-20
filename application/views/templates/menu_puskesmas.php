@@ -20,25 +20,13 @@
       </li>
       <li>
         <a class="collapsible-header waves-effect waves-teal icon-menu">
-          <i class="material-icons">assignment</i>Laporan Klinik
+          <i class="material-icons">assignment</i>Laporan P2P
         </a>
         <div class="collapsible-body">
           <ul>
-            <li><a href="<?php echo site_url('puskesmas/puskesmas_daftar_klinik'); ?>">Klinik Tervalidasi</a></li>
-            <li><a href="<?php echo site_url('puskesmas/puskesmas_input'); ?>">Input Hasil Pengawasan</a></li>
-            <li><a href="<?php echo site_url('puskesmas/puskesmas_daftar_klinik_takberizin'); ?>">Input Klinik Tak Berizin</a></li>
-            <li><a href="<?php echo site_url('puskesmas/bap'); ?>">BAP</a></li>
-            <li><a href="<?php echo site_url('puskesmas/puskesmas_download'); ?>">Download hasil pengawasan</a></li>
-          </ul>
-        </div>
-      </li>
-      <li>
-        <a class="collapsible-header waves-effect waves-teal icon-menu">
-          <i class="material-icons">assignment</i>Hasil Klinik
-        </a>
-        <div class="collapsible-body">
-          <ul>
-            <li><a href="<?php echo site_url('puskesmas/puskesmas_daftar_klinik_takberizin'); ?>">Laporan Klinik tak berizin</a></li>
+            <li><a href="<?php echo site_url('puskesmas/puskesmas_daftar_klinik'); ?>">Hepatitis</a></li>
+            <li><a href="<?php echo site_url('puskesmas/puskesmas_input'); ?>">DBD</a></li>
+            <li><a href="<?php echo site_url('puskesmas/puskesmas_daftar_klinik_takberizin'); ?>">Diare</a></li>
           </ul>
         </div>
       </li>
