@@ -1,7 +1,7 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 class Puskesmas extends CI_Controller {
 
-  public $judul = "Sistem Informasi Pengawasan dan Pembinaan Klinik oleh Puskemas";
+  public $judul = "SISTEM INFORMASI EKSEKUTIF PENYAKIT MENULAR KOTA BANDUNG BERBASIS CLOUD";
 
 	function __construct() {
 		parent::__construct();
@@ -69,6 +69,28 @@ class Puskesmas extends CI_Controller {
   public function puskesmas_tambah_klinik_takberizin(){
     if ($this->session->userdata('username')) {
       $data = array('isi' => 'puskesmas/tambah_klinik_takberizin');
+      $data['title'] = $this->judul;
+      $data['kecamatan']=$this->m_wilayah->get_all_provinsi();
+      $this->load->view('templates/themes', $data);
+    }
+    else{
+      redirect('login');
+    }
+  }
+  public function puskesmas_dbd(){
+    if ($this->session->userdata('username')) {
+      $data = array('isi' => 'puskesmas/dbd');
+      $data['title'] = $this->judul;
+      $data['admin'] = $this->perizinan_model->get_data_dasar_takberizin();
+      $this->load->view('templates/themes', $data);
+    }
+    else{
+      redirect('login');
+    }
+  }
+  public function tambah_dbd(){
+    if ($this->session->userdata('username')) {
+      $data = array('isi' => 'puskesmas/tambah_dbd');
       $data['title'] = $this->judul;
       $data['kecamatan']=$this->m_wilayah->get_all_provinsi();
       $this->load->view('templates/themes', $data);

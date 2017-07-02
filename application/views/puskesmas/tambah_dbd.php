@@ -81,6 +81,50 @@ echo form_open('puskesmas/tambah_takberizin',$attributes);
                 <option disabled>Pilih Puskesmas</option>
               </select>
             </div>
+            <div class="input-field col s6">
+              <label>Diagnosis</label>
+              <input id="val4" type="text" name="rt" value="<?php echo set_value('rt'); ?>">
+            </div>
+            <div class="input-field col s6">
+              <label>Tanggal Sakit</label>
+              <input id="val5" type="text" name="rw" value="<?php echo set_value('rw'); ?>">
+            </div>
+            <div class="input-field col s6">
+              <label>Tanggal Opname</label>
+              <input id="val4" type="text" name="rt" value="<?php echo set_value('rt'); ?>">
+            </div>
+            <div class="input-field col s6">
+              <label>Tanggal Diagnose</label>
+              <input id="val5" type="text" name="rw" value="<?php echo set_value('rw'); ?>">
+            </div>
+            <div class="input-field col s6">
+              <label>Tanggal Pulang</label>
+              <input id="val5" type="text" name="rw" value="<?php echo set_value('rw'); ?>">
+            </div>
+            <div class="input-field col s6">
+              <label>Trombosit Rendah</label>
+              <input id="val5" type="text" name="rw" value="<?php echo set_value('rw'); ?>">
+            </div>
+            <div class="input-field col s6">
+              <label>HT Terendah</label>
+              <input id="val5" type="text" name="rw" value="<?php echo set_value('rw'); ?>">
+            </div>
+            <div class="input-field col s6">
+              <label>HT Tertinggi</label>
+              <input id="val5" type="text" name="rw" value="<?php echo set_value('rw'); ?>">
+            </div>
+            <div class="input-field col s6">
+              <label>IMG</label>
+              <input id="val5" type="text" name="rw" value="<?php echo set_value('rw'); ?>">
+            </div>
+            <div class="input-field col s6">
+              <label>IgG</label>
+              <input id="val5" type="text" name="rw" value="<?php echo set_value('rw'); ?>">
+            </div>
+            <div class="input-field col s6">
+              <label>Keadaan</label>
+              <input id="val5" type="text" name="rw" value="<?php echo set_value('rw'); ?>">
+            </div>
               <!--<div class="input-field col s6">
                 <label>Penanggung Jawab :</label>
                 <input id="val5" type="text" name="penanggun_jawab" value="<?php echo set_value('penanggun_jawab'); ?>">
