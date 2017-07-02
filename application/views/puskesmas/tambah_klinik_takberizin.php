@@ -24,18 +24,21 @@ echo form_open('puskesmas/tambah_takberizin',$attributes);
                 <label>Nama Pasien</label>
                 <input id="val1" type="text" name="nama" value="<?php echo set_value('nama'); ?>">
               </div>
-              <!-- <div class="input-field col s6">
-                <label class="active" for="dibuat">Tanggal Mulai Izin :</label>
+              <div class="input-field col s6">
+                <label class="active" for="dibuat">Tanggal Mulai Sakit</label>
                 <input type="date" class="datepicker" id="dibuat" name="tgl_mulai_izin" value="<?php echo date("Y-m-d"); ?>">
               </div>
               <div class="input-field col s6">
                 <select name="periode">
-                  <option selected disabled>Pilih Periode</option>
-                  <option value="1">I</option>
-                  <option value="2">II</option>
+                  <option selected disabled>Jenis Kelamin</option>
+                  <option value="1">L</option>
+                  <option value="2">P</option>
                 </select>
-                <label>Periode :</label>
-              </div> -->
+              </div>
+              <div class="input-field col s6">
+                <label>Umur :</label>
+                <input id="val5" type="text" name="penanggun_jawab" value="<?php echo set_value('penanggun_jawab'); ?>">
+              </div>
               <!-- <div class="input-field col s6">
                 <select name="status">
                   <option selected disabled>Pilih Perizinan</option>
@@ -47,10 +50,6 @@ echo form_open('puskesmas/tambah_takberizin',$attributes);
               <div class="input-field col s12">
                 <textarea name="alamat" id="val2" class="materialize-textarea"><?php echo set_value('alamat'); ?></textarea>
                 <label for="val3">Alamat :</label>
-              </div>
-              <div class="input-field col s6">
-                <label>Jenis Kelamin</label>
-                <input id="val4" type="text" name="rt" value="<?php echo set_value('rt'); ?>">
               </div>
               <div class="input-field col s6">
                 <label>Hasil Pemeriksaan</label>
@@ -75,16 +74,10 @@ echo form_open('puskesmas/tambah_takberizin',$attributes);
                 <option disabled>Pilih Kelurahan</option>
               </select>
             </div>
-            <div class="input-field col s12">
-              <p>Puskesmas :</p>
-              <select name="puskesmas" class="browser-default" id="puskesmas">
-                <option disabled>Pilih Puskesmas</option>
-              </select>
+            <div class="input-field col s6">
+              <label>Kota Kab</label>
+              <input id="val4" type="text" name="rt" value="<?php echo set_value('rt'); ?>">
             </div>
-              <!--<div class="input-field col s6">
-                <label>Penanggung Jawab :</label>
-                <input id="val5" type="text" name="penanggun_jawab" value="<?php echo set_value('penanggun_jawab'); ?>">
-              </div>
               <!-- <div class="input-field col s6">
                 <select name="jenis_klinik">
                   <option selected disabled>Pilih Jenis Klinik</option>
