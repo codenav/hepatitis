@@ -2,6 +2,16 @@
       <div id="snackbar"> <?php echo $this->session->flashdata('success_msg') ?> </div>
   <?php } ?>
 
+
+  <?php
+    $nama = '';
+    $jumlah = '';
+    foreach ($admin as $news_item) {
+      $nama = $nama.'"'.$news_item['nama'].'",';
+      $jumlah = $jumlah.$news_item['jumlah'].',';
+    }
+  ?>
+
 <main>
   <div class="content">
   <!-- Grafik -->
@@ -15,7 +25,8 @@
         </div>
       </div>
     </div>
-  
+
+
 </div>
 </main>
 
@@ -23,14 +34,14 @@
   window.onload = function() {
     var ctx = $("#myChart").get(0).getContext("2d");
     var data = {
-      labels: ["asdf","asdf","asdfsdf"],
+      labels: [<?php echo $nama; ?>],
       datasets: [
         {
           fillColor: "rgba(51,153,153,0.5)",
           strokeColor: "#339999",
           pointColor: "#339999",
           pointStrokeColor: "#fff",
-          data: [10,2,23]
+          data: [<?php echo $jumlah; ?>]
         }
       ]
     }
