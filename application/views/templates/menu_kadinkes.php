@@ -24,7 +24,7 @@
         </a>
         <div class="collapsible-body">
           <ul>
-            <li><a href="#">Jumlah Data Per Kecamatan</a></li>
+            <li><a href="<?php echo site_url('kadinkes/data_per_kecamatan'); ?>">Jumlah Data Per Kecamatan</a></li>
             <li><a href="#">Jumlah Data Kategori</a></li>
           </ul>
         </div>
@@ -35,7 +35,7 @@
         </a>
         <div class="collapsible-body">
           <ul>
-            <li><a href="#">Jumlah Data Per Kecamatan</a></li>
+            <li><a href="">Jumlah Data Per Kecamatan</a></li>
             <li><a href="#">Jumlah Data Kategori</a></li>
           </ul>
         </div>

@@ -20,6 +20,17 @@ class Kadinkes extends CI_Controller {
 		}
 	}
 
+  public function data_per_kecamatan(){
+		if ($this->session->userdata('username')) {
+			$data = array('isi' => 'kadinkes/data_per_kecamatan');
+			$data['title'] = $this->judul;
+			$this->load->view('templates/themes', $data);
+		}
+		else{
+			redirect('login');
+		}
+	}
+
   public function lihat_klinik(){
 		if ($this->session->userdata('username')) {
 			$data = array('isi' => 'kadinkes/lihat_klinik');
