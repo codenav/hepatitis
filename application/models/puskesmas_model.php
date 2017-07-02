@@ -355,6 +355,15 @@
     return $query->result_array();
   }
 
+  public function get_data_per_kecamatan(){
+    $query = $this->db->query(
+      'SELECT *
+        FROM klinik
+        join kecamatan on kecamatan.id_kec = klinik.kecamatan
+      ');
+    return $query->result_array();
+  }
+
 
   // public function get_data_pengawasan($id_pus){
   //   $this->db->select("*");

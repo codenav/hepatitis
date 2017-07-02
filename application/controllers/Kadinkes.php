@@ -7,6 +7,7 @@ class Kadinkes extends CI_Controller {
 		parent::__construct();
     $this->load->model('perizinan_model');
     $this->load->helper('date_helper');
+    $this->load->model('puskesmas_model');
 	}
 
   public function beranda(){
@@ -24,6 +25,7 @@ class Kadinkes extends CI_Controller {
 		if ($this->session->userdata('username')) {
 			$data = array('isi' => 'kadinkes/data_per_kecamatan');
 			$data['title'] = $this->judul;
+      $data['admin'] = $this->puskesmas_model->get_data_per_kecamatan();
 			$this->load->view('templates/themes', $data);
 		}
 		else{
