@@ -33,6 +33,18 @@ class Kadinkes extends CI_Controller {
 		}
 	}
 
+  public function grafik_data_dbd(){
+    if ($this->session->userdata('username')) {
+      $data = array('isi' => 'kadinkes/grafik_data_dbd');
+      $data['title'] = $this->judul;
+      $data['admin'] = $this->puskesmas_model->get_data_per_kecamatan();
+      $this->load->view('templates/themes', $data);
+    }
+    else{
+      redirect('login');
+    }
+  }
+
   public function grafik_data_umur(){
     if ($this->session->userdata('username')) {
       $data = array('isi' => 'kadinkes/grafik_data_umur');
