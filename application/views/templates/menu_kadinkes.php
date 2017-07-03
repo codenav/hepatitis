@@ -36,8 +36,7 @@
         </a>
         <div class="collapsible-body">
           <ul>
-            <li><a href="">Jumlah Data Per Kecamatan</a></li>
-            <li><a href="#">Jumlah Data Kategori</a></li>
+            <li><a href="#">Jumlah Data Per Bulan</a></li>
           </ul>
         </div>
       </li>
@@ -47,8 +46,7 @@
         </a>
         <div class="collapsible-body">
           <ul>
-            <li><a href="#">Jumlah Data Per Kecamatan</a></li>
-            <li><a href="#">Jumlah Data Kategori</a></li>
+            <li><a href="#">Jumlah Data Per Bulan</a></li>
           </ul>
         </div>
       </li>

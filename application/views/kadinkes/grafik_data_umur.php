@@ -16,10 +16,11 @@
   <div class="content">
   <!-- Grafik -->
     <div class="row">
-      <div class="col s4">
+      <div class="col s6">
         <div class="card-panel white lighten-2">
           <div id="chart">
-            <canvas id="myChart" width="200" height="200"></canvas>
+            <h3 class="center">Data Hepatitis Berdasarkan Jumlah Umur</h3>
+            <canvas id="myChart" width="300" height="300"></canvas>
           </div>
         </div>
       </div>
@@ -35,21 +36,48 @@
     <script>
     var data = {
       labels: [
-        "Red",
-        "Blue",
-        "Yellow"
+        "15-19 TAHUN",
+        "25-29 TAHUN",
+        "5-9 TAHUN",
+        "30-34 TAHUN",
+        "35-39 TAHUN",
+        "10-14 TAHUN",
+        ">40 TAHUN",
+        "Tidak Mengisi Usia",
+        "0 - 59 Bulan",
+        "0 - 6 Bulan ",
+        "6 - 12 Bulan"
       ],
       datasets: [{
-        data: [300, 50, 100],
+        data: [ 25, 21, 14, 11, 9, 9, 8, 4, 2, 0, 0 ],
         backgroundColor: [
           "#FF6384",
           "#36A2EB",
-          "#FFCE56"
+          "#FFCE56",
+          "#e4e892",
+          "#3806dd",
+          "#27e67f",
+          "#759506",
+          "#128c34",
+          "#f63668",
+          "#9db117",
+          "#c34e25",
+          "#6259cb"
+
         ],
         hoverBackgroundColor: [
           "#FF6384",
           "#36A2EB",
-          "#FFCE56"
+          "#FFCE56",
+          "#e4e892",
+          "#3806dd",
+          "#27e67f",
+          "#759506",
+          "#128c34",
+          "#f63668",
+          "#9db117",
+          "#c34e25",
+          "#6259cb"
         ]
       }]
     };
