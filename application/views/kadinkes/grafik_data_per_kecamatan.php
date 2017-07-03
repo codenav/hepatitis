@@ -19,7 +19,7 @@
       <div class="col s12">
         <div class="card-panel white lighten-2">
           <span class="black-text">
-            <h4 class="title-grafik">Grafik Data Hepatitis Berdasarkan Kecamatan</h4>
+            <h4 class="title-grafik">Grafik Data Hepatitis Berdasarkan Paket Data</h4>
             <canvas id="myChart"></canvas>
           </span>
         </div>
