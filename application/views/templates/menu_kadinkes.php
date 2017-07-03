@@ -36,7 +36,7 @@
         </a>
         <div class="collapsible-body">
           <ul>
-            <li><a href="#">Jumlah Data Per Bulan</a></li>
+            <li><a href="<?php echo site_url('kadinkes/grafik_data_dbd'); ?>">Jumlah Data Per Bulan</a></li>
           </ul>
         </div>
       </li>
