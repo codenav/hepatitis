@@ -4,12 +4,12 @@
 
 
   <?php
-    $nama = '';
-    $jumlah = '';
-    foreach ($admin as $news_item) {
-      $nama = $nama.'"'.$news_item['nama'].'",';
-      $jumlah = $jumlah.$news_item['jumlah'].',';
-    }
+    // $nama = '';
+    // $jumlah = '';
+    // foreach ($admin as $news_item) {
+    //   $nama = $nama.'"'.$news_item['nama'].'",';
+    //   $jumlah = $jumlah.$news_item['jumlah'].',';
+    // }
   ?>
 
 <main>
@@ -34,14 +34,14 @@
   window.onload = function() {
     var ctx = $("#myChart").get(0).getContext("2d");
     var data = {
-      labels: [<?php echo $nama; ?>],
+      labels: ["Migg 1","Migg 2","Migg 3","Migg 4","Migg 5","Migg 6","Migg 7","Migg 8","Migg 9","Migg 10","Migg 11","Migg 12","Migg 13","Migg 14","Migg 15","Migg 16","Migg 17","Migg 18","Migg 19","Migg 20","Migg 21","Migg 22","Migg 23","Migg 24","Migg 25"],
       datasets: [
         {
           fillColor: "rgba(51,153,153,0.5)",
           strokeColor: "#339999",
           pointColor: "#339999",
           pointStrokeColor: "#fff",
-          data: [<?php echo $jumlah; ?>]
+          data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,8,22,50,12,0,0]
         }
       ]
     }
